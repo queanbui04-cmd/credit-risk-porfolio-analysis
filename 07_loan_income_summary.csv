@@ -1,6 +1,0 @@
-﻿loan_income_group,total_applicants,total_default,default_rate_percent,avg_loan_percent_income
-<10%,10481,1229,11.73,0.0665
-10-20%,12066,1823,15.11,0.1517
-20-30%,6195,1360,21.95,0.2489
-30-40%,2714,1865,68.72,0.3477
->=40%,1120,831,74.2,0.4738

@@ -1,0 +1,4 @@
+﻿risk_segment,total_applicants,total_default,default_rate_percent,avg_loan_amount,avg_income,avg_dti
+High Risk,11863,5554,46.82,11822.51,58354.65,0.4181
+Medium Risk,12306,1082,8.79,9526.19,64089.64,0.3603
+Low Risk,8407,472,5.61,6529.72,79127.91,0.2203

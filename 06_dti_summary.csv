@@ -1,0 +1,5 @@
+﻿dti_group,total_applicants,total_default,default_rate_percent,avg_dti
+Low DTI,4107,455,11.08,0.1595
+Medium DTI,18485,2772,15.0,0.3034
+High DTI,8674,2938,33.87,0.4728
+Very High DTI,1310,943,71.98,0.6727

@@ -1,0 +1,54 @@
+Credit Risk Portfolio Analysis - Final Summary
+============================================================
+
+1. Overall Portfolio
+ total_applicants  total_default  default_rate  avg_loan_amount  avg_income  avg_interest_rate  avg_dti
+            32576           7108         21.82          9589.12    65882.14              11.01   0.3452
+
+2. Risk Segment Summary
+risk_segment  customers  default_customers  default_rate
+   High Risk      11863               5554         46.82
+ Medium Risk      12306               1082          8.79
+    Low Risk       8407                472          5.61
+
+3. DTI Group Summary
+    dti_group  customers  default_rate
+      Low DTI       4107         11.08
+   Medium DTI      18485         15.00
+     High DTI       8674         33.87
+Very High DTI       1310         71.98
+
+4. Loan-to-Income Group Summary
+loan_income_group  customers  default_rate
+             <10%      10481         11.73
+           10-20%      12066         15.11
+           20-30%       6195         21.95
+           30-40%       2714         68.72
+            >=40%       1120         74.20
+
+5. Loan Grade Summary
+loan_grade  customers  default_rate
+         A      10777          9.96
+         B      10448         16.28
+         C       6456         20.74
+         D       3626         59.05
+         E        964         64.42
+         F        241         70.54
+         G         64         98.44
+
+6. Loan Intent Ranking
+      loan_intent  customers  default_rate  risk_rank
+DEBTCONSOLIDATION       5212         28.59          1
+          MEDICAL       6071         26.70          2
+  HOMEIMPROVEMENT       3605         26.10          3
+         PERSONAL       5520         19.89          4
+        EDUCATION       6451         17.22          5
+          VENTURE       5717         14.82          6
+
+Key Findings
+- Overall default rate was 21.82%.
+- High Risk customers had a 46.82% default rate, compared with 5.61% for Low Risk customers.
+- Very High DTI customers had a 71.98% default rate.
+- Customers with loan-to-income ratio >=40% had a 74.20% default rate.
+- Loan grade G had the highest default rate at 98.44%.
+- Debt consolidation had the highest default rate among loan intents at 28.59%.
